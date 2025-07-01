@@ -11,6 +11,11 @@ namespace Configuration
     {
         BOARD_LED = 13,
         TEMP_SENSOR_PINRX = 2,
+
+        // Just for nice to know
+        TEMP_SENSOR_RX_GPIO = 3
+        TEMP_SENSOR_PWR     = 10;
+        TEMP_SENSOR_GND     = 1;
     };
 }
 
